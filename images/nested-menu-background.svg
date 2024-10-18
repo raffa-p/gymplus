@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs fill="#000000000">
+    <filter id="blurMe" fill="#000000000">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" fill="#000000000"/>
+    </filter>
+    <symbol id="card" viewBox="0 0 80 80" width="80" height="80" fill="#000000000">
+      <path d="M10,0h60c7,1+9,3+10,10v60h-10v10h-60a10,10+0,00-10-10v-60Z" fill="#000000000"/>
+    </symbol>
+  </defs>
+  <use xlink:href="#card" style="fill:#000000; opacity: 0.4; filter:url(#blurMe);" x="10" y="15" width="80" height="80"/>
+  <use xlink:href="#card" style="fill:#9cadc7" x="10" y="10" width="80" height="80"/>
+</svg>
